@@ -16,13 +16,21 @@ body{
     margin: 15px;
 }
 
-#navbarScroll{
+/* #navbarNav{
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 69%;
     transform: translate(-10%, -50%);
     justify-content: space-around;
+} */
+
+/* Default styles for li elements */
+.navbar-nav .nav-item  {
+    text-align: left; /* Reset text alignment */
+    justify-content: space-around; 
 }
+
+
 
 
 /* Carousel Ediits */
@@ -120,4 +128,14 @@ body{
     margin-top: 120px;
   }
 
+
+  .map-container iframe {
+    height: 550px;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.list-1 li i{
+ margin-top: 11px;
+}
   
